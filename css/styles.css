@@ -1,0 +1,197 @@
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat';
+}
+
+p {
+  color: #afafaf;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+/* Containers */
+
+.container-fluid {
+  padding: 6% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar-collapse {
+  padding: 0 3%;
+}
+
+.navbar-brand {
+  padding: 0 3%;
+  font-family: Ubuntu;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.row {
+  margin:auto;
+}
+
+/* Buttons */
+
+.download-butn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.big-heading {
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3rem;
+  color: white;
+  padding: 20px 0;
+}
+
+/* Title Image */
+
+.cover-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Media Query Breakpoints for title section */
+@media (max-width: 1000px) {
+  .cover-img {
+    width: 35%;
+    transform: rotate(0);
+    position: static;
+    padding-top: 20px;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}
+/* Features Section */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 3%;
+}
+
+.feature-icon {
+  margin: 10px 0;
+  width: 50%;
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-note {
+  padding: 20px 0;
+  font-weight: normal;
+}
+
+/* Testimonial Section */
+.testimonials-img {
+  width: 20%;
+  border-radius: 100%;
+  margin-top: 3%;
+  margin-right: 3%;
+}
+
+.testimonial-text {
+  line-height: 1.5;
+  padding: 0 100px;
+}
+
+/* Press Section */
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 0 20px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 6%;
+}
+
+/* princing section */
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.pricing-name {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.pricing-text {
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 2.5rem;
+}
+
+/* cta section */
+
+.cta-text {
+  font-weight: 900;
+  padding-bottom: 50px;
+  font-size: 2.5rem;
+  padding: 3% 14%;
+  line-height: 1.5;
+}
+
+.cta-download-btn {
+  margin: 10px;
+}
+
+/* footer section */
+#footer {
+  padding: 3% 14%;
+}
+
+.footer-icon {
+  padding: 3% 3%;
+}
